@@ -41,7 +41,7 @@ public static BlockCypherContext context = new BlockCypherContext("v1", "btc", "
 		return TestnetUtil.context.getAddressService().getAddress(s).getBalance();
 	}
 ```
-* As you see address service already has a method ```.getAddress(s)``` that gets the address stored in some string s and returns an address objec. After getting the address object we can simply call ```.getBalance()``` to get its balance.
+* As you see address service already has a method ```.getAddress(s)``` that gets the address stored in some string s and returns an address object. After getting the address object we can simply call ```.getBalance()``` to get its balance.
 
 * If it is an invalid address then my program returns
 ```
