@@ -3,7 +3,7 @@ A java app that uses blockcypher's API to check the balance of a specific bitcoi
 
 ### Setup for Eclipse IDE
 
-**Step 1:** Download this repostiory
+**Step 1:** Download this repostiory. Unzip it on your local machine
 
 **Step 2:** 
 * Open Ecplise. 
