@@ -1,7 +1,7 @@
 # BitcoinTestnet
 A java app that uses blockcypher's API to check the balance of a specific bitcoin testnet address and also make a payment using testnet bitcoins
 
-### Setup for Eclipse IDE
+## Setup for Eclipse IDE
 
 **Step 1:** Download this repostiory. Unzip it on your local machine
 
