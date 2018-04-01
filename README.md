@@ -56,11 +56,11 @@ IntermediaryTransaction unsignedTx = TestnetUtil.context.getTransactionService()
 								new ArrayList<String>(Arrays.asList(output)),
 								satoshis);
 ```
-* To finalize this intermediary transaction we need to sign it using it's private key. We can do that by using blockcypher API's SignUtils class.
+* To finalize this intermediary transaction we need to sign it using input addresses' private key. We can do that by using blockcypher API's SignUtils class.
 ```java
 SignUtils.signWithBase58KeyWithPubKey(unsignedTx, privateKey);
 ```
-* And finally to send this complete transaction to blockchain, we can use sendTransaction method
+* And finally to send this complete transaction to blockchain netwrok, we can use sendTransaction method
 ```java
 TestnetUtil.context.getTransactionService().sendTransaction(unsignedTx);
 ``` 
