@@ -19,6 +19,7 @@ A java app that uses blockcypher's API to check the balance of a specific bitcoi
 
 **Step 4:** Finally, run the class called TestnetUtil in default package to see all the perks of this app!
 
+
 ## Code Explanation
 * Using blockcypher's java sdk, we can interact with blockchain network. A class called BlockCypherContext in SDK provides us with services like address service, transaction service, info service, webhook service and block chain service. Since this app focuses on getting balance from a specific address and make a payment from one address to another, we can use address and transaction service of block cypher context.
 
@@ -69,13 +70,17 @@ TestnetUtil.context.getTransactionService().sendTransaction(unsignedTx);
 ## Appendix
 
 * I generated bitcoin testnet address from here:
+
 <https://www.bitaddress.org/bitaddress.org-v3.3.0-SHA256-dec17c07685e1870960903d8f58090475b25af946fe95a734f88408cef4aa194.html?testnet=true>
 
 * I added funds to my bitcoin testnet using this bitcoin testnet faucet site:
+
 <https://testnet.manu.backend.hamburg/faucet>
 
 * If you want to check your bitcoin testnet's balance you can use this site or my program!
+
 <https://live.blockcypher.com/>
 
 * You can find Java sdk for BlockCypher here to interact with BlockCypher:
+
 <https://github.com/blockcypher/java-client>
