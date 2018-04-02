@@ -8,7 +8,7 @@ A java app that uses blockcypher's API to check the balance of a specific bitcoi
 **Step 2:** 
 * Open Ecplise. 
 * Go to File -> Import
-* In Import wizard, select Maven -> Existing Maven Projects
+* In Import wizard, select Maven -> Existing Maven Projects and click next
 * In root directory, browse to find this repository's local copy that you downloaded in Step 1 and click next
 * Select pom.xml in Projects section and click Finish
 
