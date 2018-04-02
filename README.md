@@ -31,11 +31,8 @@ A java app that uses blockcypher's API to check the balance of a specific bitcoi
 ```java
 public static BlockCypherContext context = new BlockCypherContext("v1", "btc", "test3", "f7e4206e12434e7491c674d44f6940db");
 ```
-* This context object provides me with address and transaction services. I use this context object in Balance.java to return the address of a specified bitcoin testnet address.
+* This context object provides me with address and transaction services. I used this context object in Balance.java to return the address of a specified bitcoin testnet address.
 ```java
-	/*
-	 * returns the balance of the given address
-	 */
 	public static BigDecimal getAddressBalance(String s) throws BlockCypherException
 	{	
 		return TestnetUtil.context.getAddressService().getAddress(s).getBalance();
