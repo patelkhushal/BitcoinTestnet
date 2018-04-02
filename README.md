@@ -62,7 +62,9 @@ SignUtils.signWithBase58KeyWithPubKey(unsignedTx, privateKey);
 TestnetUtil.context.getTransactionService().sendTransaction(unsignedTx);
 ``` 
 * If user provided invalid addresses, private key or if there isn't sufficient amount of funds in the input address, program outputs
-```Cannot complete transaction. Invalid address(es)/key or not enough funds in withdraw address!```
+```
+Cannot complete transaction. Invalid address(es)/key or not enough funds in withdraw address!
+```
 
 ## Appendix
 
